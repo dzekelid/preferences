@@ -9,11 +9,33 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Preferences
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/preferences/master/_listings/google-doubleclick/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Google Doubleclick Merged API - Get Preferred Deals
+  x-api-slug: accountsaccountidpreferreddeals-get
+  description: List the preferred deals for this Ad Exchange account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
+  humanURL: https://www.doubleclickbygoogle.com/
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/preferences/master/_listings/google-doubleclick/accountsaccountidpreferreddeals-get-openapi.md
+- name: Google Doubleclick Merged API - Get Preferred Deal
+  x-api-slug: accountsaccountidpreferreddealsdealid-get
+  description: Get information about the selected Ad Exchange Preferred Deal.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
+  humanURL: https://www.doubleclickbygoogle.com/
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/preferences/master/_listings/google-doubleclick/accountsaccountidpreferreddealsdealid-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://google.dataflow.api.gallery.streamdata.io

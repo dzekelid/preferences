@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Preferences
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/preferences/master/_listings/xibo/apis.md
 specificationVersion: "0.14"
 apis:
@@ -27,6 +27,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/preferences/master/_listings/xibo/userpref-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/preferences/master/_listings/xibo/userpref-get-openapi.md
+- name: Xibo API - Save User Preferences
+  x-api-slug: userpref-post
+  description: Save User preferences for non-state information, such as Layout designer
+    zoom levels
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/preferences/master/_listings/xibo/userpref-post-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://blog.xibo.org.uk/rss/

@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Trello
 x-complete: 1
@@ -864,4 +863,3 @@ paths:
       - Organizations
       - Preferences
       - Permissionlevel
----

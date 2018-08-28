@@ -1,14 +1,133 @@
----
 swagger: "2.0"
 x-collection-name: Mattermost
 x-complete: 1
 info:
   title: Mattermost
   version: 1.0.0
+host: your-mattermost-url.com
+basePath: /api/v4
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
----
+paths:
+  /users/{user_id}/preferences:
+    get:
+      summary: Get the user's preferences
+      description: |-
+        Get a list of the user's preferences.
+        ##### Permissions
+        Must be logged in as the user being updated or have the `edit_other_users` permission.
+      operationId: get-a-list-of-the-users-preferences-permissionsmust-be-logged-in-as-the-user-being-updated-or-have-t
+      x-api-path-slug: usersuser-idpreferences-get
+      parameters:
+      - in: path
+        name: user_id
+        description: User GUID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Users
+      - Preferences
+    put:
+      summary: Save the user's preferences
+      description: |-
+        Save a list of the user's preferences.
+        ##### Permissions
+        Must be logged in as the user being updated or have the `edit_other_users` permission.
+      operationId: save-a-list-of-the-users-preferences-permissionsmust-be-logged-in-as-the-user-being-updated-or-have-
+      x-api-path-slug: usersuser-idpreferences-put
+      parameters:
+      - in: body
+        name: body
+        description: List of preference object
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: user_id
+        description: User GUID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Save
+      - Users
+      - Preferences
+  /users/{user_id}/preferences/delete:
+    post:
+      summary: Delete user's preferences
+      description: |-
+        Delete a list of the user's preferences.
+        ##### Permissions
+        Must be logged in as the user being updated or have the `edit_other_users` permission.
+      operationId: delete-a-list-of-the-users-preferences-permissionsmust-be-logged-in-as-the-user-being-updated-or-hav
+      x-api-path-slug: usersuser-idpreferencesdelete-post
+      parameters:
+      - in: body
+        name: body
+        description: List of preference object
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: user_id
+        description: User GUID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Users
+      - Preferences
+  /users/{user_id}/preferences/{category}:
+    get:
+      summary: List a user's preferences by category
+      description: |-
+        Lists the current user's stored preferences in the given category.
+        ##### Permissions
+        Must be logged in as the user being updated or have the `edit_other_users` permission.
+      operationId: lists-the-current-users-stored-preferences-in-the-given-category-permissionsmust-be-logged-in-as-the
+      x-api-path-slug: usersuser-idpreferencescategory-get
+      parameters:
+      - in: path
+        name: category
+        description: The category of a group of preferences
+      - in: path
+        name: user_id
+        description: User GUID
+      responses:
+        200:
+          description: OK
+      tags:
+      - List
+      - Users
+      - Preferences
+      - By
+      - Category
+  /users/{user_id}/preferences/{category}/name/{preference_name}:
+    get:
+      summary: Get a specific user preference
+      description: |-
+        Gets a single preference for the current user with the given category and name.
+        ##### Permissions
+        Must be logged in as the user being updated or have the `edit_other_users` permission.
+      operationId: gets-a-single-preference-for-the-current-user-with-the-given-category-and-name-permissionsmust-be-lo
+      x-api-path-slug: usersuser-idpreferencescategorynamepreference-name-get
+      parameters:
+      - in: path
+        name: category
+        description: The category of a group of preferences
+      - in: path
+        name: preference_name
+        description: The name of the preference
+      - in: path
+        name: user_id
+        description: User GUID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Specific
+      - User
+      - Preference

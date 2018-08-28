@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlass
 x-kinRank: "8"
 x-alexaRank: "1656"
 tags: Preferences
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/preferences/master/_listings/atlassian/apis.md
 specificationVersion: "0.14"
 apis:
@@ -104,6 +104,98 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/preferences/master/_listings/atlassian/api2mypreferences-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/preferences/master/_listings/atlassian/api2mypreferences-delete-openapi.md
+- name: Jira Cloud REST API - Remove preference
+  x-api-slug: api2mypreferences-delete
+  description: Removes preference of the currently logged in user. Preference key
+    must be provided as input parameters (key).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/preferences/master/_listings/atlassian/api2mypreferences-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/preferences/master/_listings/atlassian/api2mypreferences-delete-openapi.md
+- name: Jira Cloud REST API - Remove preference
+  x-api-slug: api2mypreferences-delete
+  description: Removes preference of the currently logged in user. Preference key
+    must be provided as input parameters (key).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/preferences/master/_listings/atlassian/api2mypreferences-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/preferences/master/_listings/atlassian/api2mypreferences-delete-openapi.md
+- name: Jira Cloud REST API - Set preference
+  x-api-slug: api2mypreferences-put
+  description: Sets preference of the currently logged in user. Preference key must
+    be provided as input parameters (key). Value must be provided as POST body.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/preferences/master/_listings/atlassian/api2mypreferences-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/preferences/master/_listings/atlassian/api2mypreferences-put-openapi.md
+- name: Jira Cloud REST API - Set preference
+  x-api-slug: api2mypreferences-put
+  description: Sets preference of the currently logged in user. Preference key must
+    be provided as input parameters (key). Value must be provided as POST body.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/preferences/master/_listings/atlassian/api2mypreferences-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/preferences/master/_listings/atlassian/api2mypreferences-put-openapi.md
+- name: Jira Cloud REST API - Get preference
+  x-api-slug: api2mypreferences-get
+  description: Returns preference of the currently logged in user. Preference key
+    must be provided as input parameter (key). The value is returned exactly as it
+    is.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/preferences/master/_listings/atlassian/api2mypreferences-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/preferences/master/_listings/atlassian/api2mypreferences-get-openapi.md
+- name: Jira Cloud REST API - Get preference
+  x-api-slug: api2mypreferences-get
+  description: Returns preference of the currently logged in user. Preference key
+    must be provided as input parameter (key). The value is returned exactly as it
+    is.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/preferences/master/_listings/atlassian/api2mypreferences-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/preferences/master/_listings/atlassian/api2mypreferences-get-openapi.md
 x-common:
 - type: x-openapi
   url: https://developer.atlassian.com/cloud/jira/platform/swagger.v3.json

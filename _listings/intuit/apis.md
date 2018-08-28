@@ -8,11 +8,39 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intui
 x-kinRank: "8"
 x-alexaRank: "263"
 tags: Preferences
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/preferences/master/_listings/intuit/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: QuickBooks Online V3 API - Get Preferences
+  x-api-slug: preferences-get
+  description: |-
+    Read the preference object
+    Method : POST
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/preferences/master/_listings/intuit/preferences-get-openapi.md
+- name: QuickBooks Online V3 API - Post Preferences
+  x-api-slug: preferences-post
+  description: |-
+    Update the preference object endpoint
+    Method : POST
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/preferences/master/_listings/intuit/preferences-post-openapi.md
 x-common:
 - type: x-postman-collection
   url: https://www.getpostman.com/collections/554420530884cde6b794

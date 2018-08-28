@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Intuit
 x-complete: 1
@@ -64,4 +63,3 @@ paths:
       - Accounting
       - Accounting
       - Preferences
----
